@@ -67,7 +67,7 @@ button.btn-success:hover {
     background-color: #218838;
 }
 
-/* Estilo para la página de ejercicios */
+/* Estilo para la pagina de ejercicios */
 #exercisePage {
     background-color: #f9f9f9; /* Fondo claro para diferenciar */
     padding: 20px;
@@ -95,12 +95,12 @@ button.btn-success:hover {
     cursor: pointer;
     border: none;
     border-radius: 5px;
-    background-color: #28a745; /* Color de éxito */
+    background-color: #28a745; /* Color de exito */
     color: white;
     transition: background-color 0.3s ease;
 }
 #exercisePage form button:hover {
-    background-color: #218838; /* Color de hover para el botón */
+    background-color: #218838; /* Color de hover para el boton */
 }
 /* Estilo para los campos de ejercicios */
 #exerciseList {
@@ -125,12 +125,12 @@ button.btn-success:hover {
     border-radius: 5px;
 }
 #exercisePage form button[type="submit"] {
-    background-color: #007bff; /* Botón de guardar */
+    background-color: #007bff; /* Boton de guardar */
 }
 #exercisePage form button[type="submit"]:hover {
     background-color: #0056b3;
 }
-/* Estilo para el mensaje de éxito o error */
+/* Estilo para el mensaje de exito o error */
 #exercisePage .message {
     margin-top: 20px;
     font-size: 1.2rem;
@@ -142,7 +142,7 @@ button.btn-success:hover {
 
 
 /* ESTILOS PERFORMANCE PAGE */
-/* Estilo para la página de rendimiento */
+/* Estilo para la pagina de rendimiento */
 #performancePage {
     background-color: #f9f9f9;
     padding: 20px;
@@ -199,7 +199,7 @@ button.btn-success:hover {
 #performancePage .error-message {
     color: red;
 }
-/* Estilo para el botón de eliminar registros */
+/* Estilo para el boton de eliminar registros */
 #deleteRecordsButton {
     margin-top: 20px;
     padding: 10px 20px;
