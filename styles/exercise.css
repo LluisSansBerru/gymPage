@@ -1,0 +1,217 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+h3 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+input, select {
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    flex: 1;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.btn-primary {
+    background-color: #007bff;
+    color: white;
+}
+
+button.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+button.btn-success {
+    background-color: #28a745;
+    color: white;
+}
+
+button.btn-success:hover {
+    background-color: #218838;
+}
+
+/* Estilo para la página de ejercicios */
+#exercisePage {
+    background-color: #f9f9f9; /* Fondo claro para diferenciar */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#exercisePage h3 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#exercisePage form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#exercisePage form button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745; /* Color de éxito */
+    color: white;
+    transition: background-color 0.3s ease;
+}
+#exercisePage form button:hover {
+    background-color: #218838; /* Color de hover para el botón */
+}
+/* Estilo para los campos de ejercicios */
+#exerciseList {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.exercise-field {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.exercise-field input {
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    width: 200px;
+}
+.exercise-field select {
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+#exercisePage form button[type="submit"] {
+    background-color: #007bff; /* Botón de guardar */
+}
+#exercisePage form button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+/* Estilo para el mensaje de éxito o error */
+#exercisePage .message {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: green;
+}
+#exercisePage .error-message {
+    color: red;
+}
+
+
+/* ESTILOS PERFORMANCE PAGE */
+/* Estilo para la página de rendimiento */
+#performancePage {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#performancePage h3 {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#performancePage #savedData {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.performance-summary {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.performance-summary strong {
+    color: #007bff;
+}
+
+.performance-chart {
+    margin-top: 20px;
+}
+
+.performance-chart canvas {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#performancePage .message {
+    font-size: 1.2rem;
+    color: green;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#performancePage .error-message {
+    color: red;
+}
+/* Estilo para el botón de eliminar registros */
+#deleteRecordsButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#deleteRecordsButton:hover {
+    background-color: #d32f2f;
+}
