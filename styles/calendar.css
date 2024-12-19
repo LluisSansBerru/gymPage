@@ -242,11 +242,11 @@ button:focus {
     outline: 3px solid #0056b3; /* Borde mas visible cuando se enfoca un boton */
 }
 
-.day.done {
+.mark-done {
     background-color: green;
     color: white;
 }
-.day.not-done {
+.mark-not-done {
     background-color: red;
     color: white;
 }
