@@ -1,56 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Gym Tracker</title>
-        <link rel="stylesheet" href="./styles/calendar.css">
-        <link rel="stylesheet" href="./styles/exercise.css">
-    </head>
-    <body>
-        <div class="container">
-            <header>
-                <h1>Gym Tracker 2025</h1>
-                <nav>
-                    <button onclick="showCalendar()">Calendar</button>
-                    <button onclick="showPerformancePage()">Performance</button>
-                </nav>
-            </header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Tracker</title>
+    <link rel="stylesheet" href="./styles/calendar.css">
+    <link rel="stylesheet" href="./styles/exercise.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Gym Tracker 2025</h1>
+            <nav>
+                <button onclick="showCalendar()">Calendar</button>
+                <button onclick="showPerformancePage()">Performance</button>
+            </nav>
+        </header>
 
-            <!-- Calendar Page -->
-            <div id="calendarPage" class="page">
-                <div id="calendar" class="calendar">
-                    <!-- Aqui se generaran dinamicamente los meses y dias -->
-                </div>
-            </div>
-
-            <!-- Exercise Page -->
-            <div id="exercisePage" class="page" style="display:none;">
-                <h3>Manage Day Status</h3>
-                <div class="day-status">
-                    <label for="date-select">Select a Day:</label>
-                    <input type="date" id="date-select">
-                </div>
-                <div class="status-actions">
-                    <button id="mark-done">Mark as Done</button>
-                    <button id="mark-not-done">Mark as Not Done</button>
-                </div>
-                <h3>Add Exercises for <span id="selectedDate"></span></h3>
-                <form id="exerciseDataForm">
-                    <div id="exerciseList"></div>
-                    <button type="button" onclick="addExerciseField()">Add Exercise</button>
-                    <button type="submit">Save Exercises</button>
-                </form>
-            </div>
-
-            <!-- Performance Page -->
-            <div id="performancePage" class="page" style="display:none;">
-                <h3>Performance Overview</h3>
-                <div id="savedData"></div>
-                <button id="deleteRecordsButton" class="btn btn-danger" onclick="deletePerformanceRecords()">Delete Performance Records</button>
-            </div>
+        <!-- Calendar Page -->
+        <div id="calendarPage" class="page">
+            <div id="calendar" class="calendar"></div>
         </div>
 
-        <script src="./scripts/index.js"></script>
-    </body>
+        <!-- Exercise Page -->
+        <div id="exercisePage" class="page" style="display:none;">
+            <h3>Add Exercises for <span id="selectedDate"></span></h3>
+            <form id="exerciseDataForm">
+                <div id="exerciseList"></div>
+                <button type="button" onclick="addExerciseField()">Add Exercise</button>
+                <button type="submit">Save Exercises</button>
+            </form>
+        </div>
+
+        <!-- Performance Page -->
+        <div id="performancePage" class="page" style="display:none;">
+            <h3>Performance Overview</h3>
+            <div id="savedData"></div>
+            <button id="deleteRecordsButton" class="btn btn-danger" onclick="deletePerformanceRecords()">Delete Performance Records</button>
+        </div>
+    </div>
+
+    <script src="./scripts/index.js"></script>
+</body>
 </html>
