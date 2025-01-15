@@ -12,7 +12,7 @@ body {
 
 .container {
     max-width: 1200px;
-    width: 90%; /* Ajustable para pantallas mas pequenas */
+    width: 90%; /* Ajustable para pantallas más pequeñas */
     text-align: center;
 }
 
@@ -27,7 +27,7 @@ header h1 {
     text-transform: uppercase;
 }
 
-/* Estilos para los botones de navegacion */
+/* Estilos para los botones de navegación */
 nav button {
     margin: 5px;
     padding: 10px 20px;
@@ -83,7 +83,7 @@ nav button:hover {
     margin: 0;
 }
 
-/* Titulos de los dias de la semana */
+/* Títulos de los días de la semana */
 .day-header, .day {
     padding: 8px;
     text-align: center;
@@ -104,15 +104,15 @@ nav button:hover {
     transform: scale(1.1);
 }
 
-/* Grilla de dias */
+/* Grilla de días */
 .days-grid {
     display: grid;
-    grid-template-columns: repeat(7, 1fr); /* 7 columnas para los dias de la semana */
+    grid-template-columns: repeat(7, 1fr); /* 7 columnas para los días de la semana */
     gap: 5px;
     margin-top: 10px;
     padding-bottom: 10px;
-    grid-template-rows: repeat(6, 1fr); /* 6 filas para los dias del mes */
-    min-height: 250px; /* Minima altura para evitar que los dias se corten */
+    grid-template-rows: repeat(6, 1fr); /* 6 filas para los días del mes */
+    min-height: 250px; /* Mínima altura para evitar que los días se corten */
 }
 
 /* Colores para cada mes */
@@ -130,7 +130,7 @@ nav button:hover {
 .december { border-color: #1e88e5; }
 
 
-/* Colores dinamicos para cada mes */
+/* Colores dinámicos para cada mes */
 .january {
     background-color: #e3f2fd; /* Azul claro */
     border-color: #1565c0;
@@ -228,7 +228,7 @@ nav button:hover {
 }
 
 
-/* Mejora en la visualizacion de los encabezados */
+/* Mejora en la visualización de los encabezados */
 .month h3 {
     font-size: 1.5rem;
     margin: 0;
@@ -239,14 +239,5 @@ nav button:hover {
 
 /* Agregado para mejorar la visibilidad del foco en los botones */
 button:focus {
-    outline: 3px solid #0056b3; /* Borde mas visible cuando se enfoca un boton */
-}
-
-.mark-done {
-    background-color: green;
-    color: white;
-}
-.mark-not-done {
-    background-color: red;
-    color: white;
+    outline: 3px solid #0056b3; /* Borde más visible cuando se enfoca un botón */
 }
